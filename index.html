@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/f9c0edbb3a.js" crossorigin="anonymous"></script>
+    <!-- check here once about script -->
+    
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/images-removebg-preview.png" alt="Logo" class="logo">
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact_us">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu();"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+
+            </nav>
+
+            <div class="header-Text">
+                <p>Android <span>&</span> Web Developer <span>.</span></p>
+                <h1>Hi, I'm <span> Rahul </span></h1>
+                <a href="/images/my-cv.pdf" download="/images/my-cv.pdf" class="btn btn2">Download Cv &nbsp;<i class="fa-solid fa-file-arrow-down fa-shake"></i></a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="user Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle"> About <span> Me</span></h1>
+                    <p>I'm a passionate tech enthusiast with a strong academic background, holding an MCA degree from Bangalore with an impressive 80% and a BCA from a prestigious government college in Mandya with a 7.44 CGPA. My keen interest lies in the world of Android app development, particularly in the cutting-edge Flutter technology. In addition to my academic pursuits, I curate and share my expertise on my Instagram page,<a href="https://www.instagram.com/flutter_boydev/?igshid=1rykg2jvndtss"> <span>'flutter_boydev,'</span> </a> where I explore the art of app development and share insights with the community</p>
+
+
+                    <div class="tab-text">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+
+
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Android App</span><br>Android Development</li>
+                            <li><span>Web Application</span><br>Web Development</li>
+                            <li><span>Firebase</span><br>Storage and Database</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>MCA</span><br>2021-2023 <br>Bangalore
+                                <span>|</span> <span>80%</span>
+                            </li>
+                            <li><span>BCA</span><br> 2018-2021 <br>Mandya <span>|</span> <span>7.44</span> </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services  -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Service<span>s</span></h1>
+            <div class="service-List">
+                
+                <div>
+                    <i class="fa-brands fa-android fa-beat"></i>
+                    <h2>Android Development</h2>
+                    <p>I have a strong proficiency in Android app development, with a particular focus on creating high-quality, cross-platform mobile applications using Flutter. My experience includes designing and implementing user-friendly interfaces, integrating APIs for data retrieval, and optimizing performance for a seamless user experience</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code fa-beat"></i>
+                    <h2>Web Development</h2>
+                    <p>Crafting captivating web experiences with HTML, CSS, and JavaScript to transform ideas into digital reality</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-rectangle-ad fa-beat"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>I have extensive experience implementing efficient caching strategies to enhance website performance and reduce load times, ensuring a seamless user experience</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Project<span>s</span></h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Reddit.png" alt="work">
+                    <div class="layer">
+                        <h3>Reddit App (Android)</h3>
+                        <p>Download the source code</p>
+                        <a href="https://github.com/rahul06r/Reddit_Clone"><i class="fa-sharp fa-solid fa-up-right-from-square fa-bounce"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/musicjs.png" alt="work">
+                    <div class="layer">
+                        <h3>Music App (web)</h3>
+                        <p>Download the source code</p>
+                        <a href="https://github.com/rahul06r/Musizapp-hcj"><i class="fa-sharp fa-solid fa-up-right-from-square fa-bounce"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/keyboard.png" alt="work">
+                    <div class="layer">
+                        <h3>Keyboard Design (Html,Css)</h3>
+                        <p>Download the source code</p>
+                        <a href="https://github.com/rahul06r/keyboard-color-10"><i class="fa-sharp fa-solid fa-up-right-from-square fa-bounce"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.instagram.com/flutter_boydev/?igshid=1rykg2jvndtss" class="btn">See more</a>
+        </div>
+
+    </div>
+
+
+
+    <div id="contact_us">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <div class="subtitle">Contact <span>Me</span></div>
+                    <p><i class="fa-regular fa-envelope fa-shake" style="color: #da1b1b;"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone fa-shake"  style="color: #da1b1b;"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/flutter_boydev/?igshid=1rykg2jvndtss"">
+                            <i class="fa-brands fa-instagram fa-beat-fade"   style="color: #da1b1b;"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rahul-r-bhat-480369193/">
+                            <i class="fa-brands fa-linkedin-in fa-beat-fade"   style="color: #da1b1b;"></i>
+                        </a>
+
+
+
+                    </div>
+                    <a href="/images/my-cv.pdf" download="/images/my-cv.pdf" class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+
+                        <textarea name="Message" id="" rows="6" placeholder="Your Feedback or Work from us"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ <span> Rahul.</span>&nbsp;2023<i class="fa-sharp fa-solid fa-heart fa-beat"
+                    style="color: #da1b1b;"></i></p>
+        </div>
+    </div>
+
+
+    <!-- <script>
+       
+
+
+
+
+
+
+    </script> -->
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
